@@ -1,0 +1,64 @@
+.roomcard-container{
+    display: flex;
+    cursor: pointer;
+}
+.left-icon-roomno-container{
+    color: var(--white);
+    min-width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.left-icon-roomno-container img {
+    padding-top: 9px;
+}
+.left-icon-roomno-container div {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.right--container {
+    width: 100%;
+}
+.name-checkin-container, .checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 11px;
+}
+.checkout-container {
+    padding-bottom: 0 !important;
+}
+.check-status-section {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.customer_name {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+.customer-count {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+.date-section {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--secondary);
+    width: 100%;
+}
+.maintanance-card-icons div {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.maintanance-card-icons img {
+    padding: 0 7px;
+    height: 18px;
+    width: 18px;
+}

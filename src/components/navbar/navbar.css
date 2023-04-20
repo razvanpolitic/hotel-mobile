@@ -1,0 +1,122 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 8px 24px;
+    align-items: center;
+    border-bottom: 3px solid #8CAF00;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar-container img {
+    cursor: pointer;
+}
+.center-logo {
+    text-align: center;
+}
+.change--text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+}
+.inhouse--text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+.search-bar {
+    position: relative;
+}
+.search-bar-section {
+    position: absolute;
+    top: -7px;
+    right: -12px;
+}
+.blank_space {
+    height: 19px;
+    width: 19px;
+}
+.search-bar-section img {
+    position: absolute;
+    right: 12px;
+    top: 5px;
+}
+.search-bar-section input {
+    background: #F2F2F2;
+    border: 1px solid var(--primary);
+    padding: 5px 34px 6px 8px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A7A9AC;
+    width: 91px;
+}
+.search-bar-section input::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A7A9AC;
+}
+.search-bar-section input:focus {
+    outline: none;
+}
+
+.sidebar-container {
+    height: calc(100vh);
+    width: 340px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    background: var(--offwhite);
+    max-width: 460px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.close_icon {
+    padding-left: 24px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.welcome--text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 26px;
+    padding-left: 62px;
+}
+.welcome--text span {
+    font-weight: 400;
+}
+.pages {
+    padding-left: 25px;
+    padding-top: 85px;
+}
+.pages ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #8CAF00;
+    cursor: pointer;
+}
+.active-class {
+    color: #58595B !important;
+}
+.logout-container {
+    padding-left: 25px;
+}
+.logout-container ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--secondary);
+    cursor: pointer;
+}
+.sidebar-logo {
+    padding: 15px 0 49px 62px;
+}

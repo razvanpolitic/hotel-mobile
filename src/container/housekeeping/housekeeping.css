@@ -1,0 +1,29 @@
+.housekeeping-container {
+    padding-top: 20px;
+}
+.room-cards-container {
+    padding: 23px 26px 57px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    height: calc(100vh - 141px);
+    overflow-y: scroll;
+}
+.room-cards-container::-webkit-scrollbar {
+    display: none;
+}
+.filter-sort-container {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    bottom: 0;
+    max-width: 460px;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 25px;
+    padding-top: 65px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0.84%, #FFFFFF 52.31%);
+}
+.filter-sort-container img{
+    cursor: pointer;
+}

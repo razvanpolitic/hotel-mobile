@@ -1,0 +1,14 @@
+.maintainance-container {
+    padding-top: 20px;
+}
+.room-cards-container {
+    padding: 23px 26px 57px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    height: calc(100vh - 141px);
+    overflow-y: scroll;
+}
+.room-cards-container::-webkit-scrollbar {
+    display: none;
+}

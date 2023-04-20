@@ -1,0 +1,23 @@
+:root {
+    --white: #fff;
+    --offwhite: #F2F2F2;
+    --primary: #B2D235;
+    --secondary:#A81815;
+    --gray: #969696;
+    --lightblack: #404040;
+    --transparent: transparent;
+}
+body {
+    margin: 0;
+    padding: 0 !important;
+    line-height: 1.3 !important;
+    font-family: "Montserrat", sans-serif !important;
+    scroll-behavior: smooth;
+    background: #404040;
+  }
+.main-container{
+    max-width: 460px;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--white);
+}

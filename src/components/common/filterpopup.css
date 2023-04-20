@@ -1,0 +1,83 @@
+/* Small card css */
+.small-card {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.card-text {
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 15px;
+    text-align: center;
+}
+.bg-active {
+    background: #58595B !important;
+}
+
+.filter-popup{
+    position: absolute;
+    bottom: 90px;
+    border: 1px solid #B2D235;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.25);
+    max-width: 325px;
+    width: 100%;
+    background: #FFF;
+    padding: 17px 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 9;
+}
+.filter-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.floors-container {
+    margin-top: 30px;
+    background: #D9D9D9;
+    padding: 5px 0 12px 13px;
+}
+.floor-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #231F20;
+    padding-bottom: 8px;
+}
+.floor-counts {
+    display: flex;
+    gap: 7px;
+}
+.floor-counts span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #8CAF00;
+    height: 29px;
+    width: 29px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-active {
+    background: #58595B !important;
+}
+.bottom-design {
+    border: 1px solid #8CAF00;
+    position: absolute;
+    height: 38px;
+    width: 28px;
+    background: white;
+    bottom: 74px;
+    left: 46.5%;
+    z-index: 2;
+    transform: translate(-50%, 0) rotate(45deg);
+}
